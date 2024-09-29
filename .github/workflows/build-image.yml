@@ -4,8 +4,6 @@ on:
   push:
     paths:
       - "**.*"
-    tags:
-      - 'v*.*.*'
 
 env:
   IMAGE_NAME: argocd-plugin-helmfile
